@@ -3,7 +3,7 @@ services:
   pg:
     image: postgres
     environment:
-      POSTGRES_DB: evoll
+      POSTGRES_DB: db
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password
     ports:
